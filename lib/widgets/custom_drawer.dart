@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:task6_changenotifier_petclicker/widgets/pet_shop_page.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});
@@ -34,11 +33,11 @@ class CustomDrawer extends StatelessWidget {
               "Pet Shop",
             ),
             onTap: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => const PetShopPage(),
-                ),
-              );
+              // Navigator.of(context).push(
+              //   MaterialPageRoute(
+              //     builder: (context) => const PetShopPage(),
+              //   ),
+              // );
             },
           )
         ],
